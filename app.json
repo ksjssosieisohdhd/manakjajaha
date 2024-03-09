@@ -1,0 +1,27 @@
+{
+    "name": "مارس",
+    "description": "اهلا بكم في تنصيب النشر التلقائي الخاص بسورس مارس",
+    "logo": "",
+    "stack": "container",
+    "repository": "https://t.me/m_mmm",
+    "keywords": ["python", "chatbot", "telegrambot"],
+    "website": "https://t.me/x_marrs",
+    "env": {
+        "SESSION": {
+            "description": "ضع كود التيرمكس الذي استخرجته من بوت الجوكر",
+            "value": "",
+            "required": true
+        },
+        "APP_ID": {
+            "description": "ضع ابب ايدي المكون من 6 ارقام",
+            "value": "",
+            "required": true
+        },
+        "APP_HASH": {
+            "description": "ضع ابب هاش المكون من ارقام وحروف",
+            "value": "",
+            "required": true
+        }
+    },
+    "automatic_deploy": false
+}
